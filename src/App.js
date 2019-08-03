@@ -18,7 +18,7 @@ class App extends React.Component {
 	}
 
 	queryAPI() {
-		if (!this.state.searchTerm === "") {
+		if (!this.state.searchTerm == "") {
 			console.log(this.state.searchTerm);
 			api.searchWiki(this.state.searchTerm).then(result => {
 				// result = JSON.stringify(result);
