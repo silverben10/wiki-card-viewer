@@ -18,13 +18,15 @@ class App extends React.Component {
 	}
 
 	queryAPI() {
-		console.log(this.state.searchTerm);
-		api.searchWiki(this.state.searchTerm).then(result => {
-			// result = JSON.stringify(result);
-			this.setState({
-				data: result
+		if (!this.state.searchTerm == "") {
+			console.log(this.state.searchTerm);
+			api.searchWiki(this.state.searchTerm).then(result => {
+				// result = JSON.stringify(result);
+				this.setState({
+					data: result
+				});
 			});
-		});
+		}
 	}
 
 	handleChange(event) {
@@ -58,12 +60,12 @@ class App extends React.Component {
 								<input
 									name="searchTerm"
 									type="text"
-									className="bg-white form-control-plaintext p-3 text-dark text-left border w-75 search-bar"
+									className="bg-white form-control-plaintext shadow p-3 text-dark text-left rounded-pill-left border-0 w-75 search-bar"
 									placeholder="Type here..."
 									onChange={this.handleChange}
 								/>
 								<button
-									className="border-0 btn p-3 search-button"
+									className="border-0 btn p-3 search-button shadow rounded-pill-right d-flex align-items-center justify-content-center"
 									onClick={this.queryAPI}>
 									<i className="material-icons">search</i>
 								</button>

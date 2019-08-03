@@ -15,7 +15,7 @@ async function searchWiki(searchTerm) {
 
 function formatResponse(data) {
 	let results = [];
-	for (let i = 0; i < 10; i++) {
+	for (let i = 0; i < data[1].length; i++) {
 		let element = {
 			title: data[1][i],
 			description: data[2][i],
