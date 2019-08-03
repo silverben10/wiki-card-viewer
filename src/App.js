@@ -2,6 +2,7 @@ import React from "react";
 import * as api from "./apiQuery.js";
 import WikiItem from "./WikiItem.js";
 import { Container, Row, Col, CardColumns } from "react-bootstrap";
+import "./App.css";
 
 class App extends React.Component {
 	constructor() {
@@ -47,22 +48,31 @@ class App extends React.Component {
 		));
 
 		return (
-			<Container className="text-center">
-				<Row>
-					<Col>
-						<h1>WikiCards</h1>
-						<p>Search for something!</p>
-						<input
-							name="searchTerm"
-							type="text"
-							placeholder="Search for something!"
-							onChange={this.handleChange}
-						/>
-						<button onClick={this.queryAPI}>Submit</button>
-						<CardColumns>{items}</CardColumns>
-					</Col>
-				</Row>
-			</Container>
+			<div className="bg-light fullscreen py-5 d-flex align-items-center">
+				<Container className="text-center">
+					<Row>
+						<Col>
+							<h1 className="display-1">WikiCards</h1>
+							<p className="lead">Search for something!</p>
+							<div className="my-5">
+								<input
+									name="searchTerm"
+									type="text"
+									className="bg-white text-dark text-left h-100 px-3 py-3 border border-right-0 rounded-left w-75"
+									placeholder="Type here..."
+									onChange={this.handleChange}
+								/>
+								<button
+									className="bg-black px-4 py-3 rounded-right border-0 text-white text-uppercase"
+									onClick={this.queryAPI}>
+									Search
+								</button>
+							</div>
+							<CardColumns>{items}</CardColumns>
+						</Col>
+					</Row>
+				</Container>
+			</div>
 		);
 	}
 }

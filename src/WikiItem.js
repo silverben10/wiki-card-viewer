@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./WikiItem.css";
 
 function WikiItem(props) {
 	return (
@@ -9,7 +10,7 @@ function WikiItem(props) {
 				<Card.Title>{props.title}</Card.Title>
 				<Card.Text>{props.description}</Card.Text>
 				<a className="stretched-link" href={props.link}>
-					Visit Page
+					Read More
 				</a>
 			</Card.Body>
 		</Card>
