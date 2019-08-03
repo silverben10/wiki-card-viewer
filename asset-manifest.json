@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wiki-card-viewer/static/css/main.4f6709c6.chunk.css",
+    "main.js": "/wiki-card-viewer/static/js/main.cc2b333d.chunk.js",
+    "main.js.map": "/wiki-card-viewer/static/js/main.cc2b333d.chunk.js.map",
+    "runtime~main.js": "/wiki-card-viewer/static/js/runtime~main.99452bd2.js",
+    "runtime~main.js.map": "/wiki-card-viewer/static/js/runtime~main.99452bd2.js.map",
+    "static/js/2.11a6ef3a.chunk.js": "/wiki-card-viewer/static/js/2.11a6ef3a.chunk.js",
+    "static/js/2.11a6ef3a.chunk.js.map": "/wiki-card-viewer/static/js/2.11a6ef3a.chunk.js.map",
+    "index.html": "/wiki-card-viewer/index.html",
+    "precache-manifest.dff2c0e8a3368160fbce1370d87a76c1.js": "/wiki-card-viewer/precache-manifest.dff2c0e8a3368160fbce1370d87a76c1.js",
+    "service-worker.js": "/wiki-card-viewer/service-worker.js",
+    "static/css/main.4f6709c6.chunk.css.map": "/wiki-card-viewer/static/css/main.4f6709c6.chunk.css.map"
+  }
+}
