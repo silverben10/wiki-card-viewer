@@ -1,0 +1,7 @@
+.custom-card {
+	transition: transform 0.5s ease;
+}
+
+.custom-card:hover {
+	transform: translateY(-15px);
+}
