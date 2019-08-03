@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46ac9bcb5d20a7a427126feae39659d1",
+    "revision": "c637ef1fa923e8b92ca660553e2e5bd0",
     "url": "/wiki-card-viewer/index.html"
   },
   {
-    "revision": "ce17c95862a296cab069",
+    "revision": "396fb8dbe0cb2633406d",
     "url": "/wiki-card-viewer/static/css/main.4f6709c6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wiki-card-viewer/static/js/2.11a6ef3a.chunk.js"
   },
   {
-    "revision": "ce17c95862a296cab069",
-    "url": "/wiki-card-viewer/static/js/main.cc2b333d.chunk.js"
+    "revision": "396fb8dbe0cb2633406d",
+    "url": "/wiki-card-viewer/static/js/main.7f07b534.chunk.js"
   },
   {
     "revision": "7e43910bc90c196e0e0a",
