@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wiki-card-viewer/static/css/main.4f6709c6.chunk.css",
-    "main.js": "/wiki-card-viewer/static/js/main.7f07b534.chunk.js",
-    "main.js.map": "/wiki-card-viewer/static/js/main.7f07b534.chunk.js.map",
+    "main.css": "/wiki-card-viewer/static/css/main.2b14d2e1.chunk.css",
+    "main.js": "/wiki-card-viewer/static/js/main.42a17fc2.chunk.js",
+    "main.js.map": "/wiki-card-viewer/static/js/main.42a17fc2.chunk.js.map",
     "runtime~main.js": "/wiki-card-viewer/static/js/runtime~main.99452bd2.js",
     "runtime~main.js.map": "/wiki-card-viewer/static/js/runtime~main.99452bd2.js.map",
-    "static/js/2.11a6ef3a.chunk.js": "/wiki-card-viewer/static/js/2.11a6ef3a.chunk.js",
-    "static/js/2.11a6ef3a.chunk.js.map": "/wiki-card-viewer/static/js/2.11a6ef3a.chunk.js.map",
+    "static/js/2.92d1b4c3.chunk.js": "/wiki-card-viewer/static/js/2.92d1b4c3.chunk.js",
+    "static/js/2.92d1b4c3.chunk.js.map": "/wiki-card-viewer/static/js/2.92d1b4c3.chunk.js.map",
     "index.html": "/wiki-card-viewer/index.html",
-    "precache-manifest.46ed99106188e9ca06048ad1de58d5c8.js": "/wiki-card-viewer/precache-manifest.46ed99106188e9ca06048ad1de58d5c8.js",
+    "precache-manifest.f17b35d02d60746848b218d5bf6d765f.js": "/wiki-card-viewer/precache-manifest.f17b35d02d60746848b218d5bf6d765f.js",
     "service-worker.js": "/wiki-card-viewer/service-worker.js",
-    "static/css/main.4f6709c6.chunk.css.map": "/wiki-card-viewer/static/css/main.4f6709c6.chunk.css.map"
+    "static/css/main.2b14d2e1.chunk.css.map": "/wiki-card-viewer/static/css/main.2b14d2e1.chunk.css.map"
   }
 }
