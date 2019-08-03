@@ -54,18 +54,18 @@ class App extends React.Component {
 						<Col>
 							<h1 className="display-1">WikiCards</h1>
 							<p className="lead">Search for something!</p>
-							<div className="my-5">
+							<div className="my-5 d-flex justify-content-center">
 								<input
 									name="searchTerm"
 									type="text"
-									className="bg-white text-dark text-left h-100 px-3 py-3 border border-right-0 rounded-left w-75"
+									className="bg-white form-control-plaintext p-3 text-dark text-left border w-75 search-bar"
 									placeholder="Type here..."
 									onChange={this.handleChange}
 								/>
 								<button
-									className="bg-black px-4 py-3 rounded-right border-0 text-white text-uppercase"
+									className="border-0 btn p-3 search-button"
 									onClick={this.queryAPI}>
-									Search
+									<i className="material-icons">search</i>
 								</button>
 							</div>
 							<CardColumns>{items}</CardColumns>
