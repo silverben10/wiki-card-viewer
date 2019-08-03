@@ -3,7 +3,8 @@
 async function searchWiki(searchTerm) {
 	let url =
 		"https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=" +
-		searchTerm;
+		searchTerm +
+		"&origin=*"; // We send an unauthenticated CORS request thingy
 
 	const response = await fetch(url);
 	const data = await response.json();
@@ -32,7 +33,8 @@ async function appendImages(results) {
 	for (let element of results) {
 		let url =
 			"https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages&pithumbsize=500&titles=" +
-			element.title;
+			element.title +
+			"&origin=*";
 
 		const response = await fetch(url);
 		const data = await response.json();
